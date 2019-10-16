@@ -1,3 +1,9 @@
+"""
+groupby.py
+
+counts the number of cells within each column that is not blank
+"""
+
 import pandas as pd
  
 df = pd.read_csv('https://data.cityofnewyork.us/api/views/rsgh-akpg/rows.csv?accessType=DOWNLOAD')
